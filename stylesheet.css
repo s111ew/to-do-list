@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#addItemContainer {
+    margin-top: 30px;
+}
+
+input {
+    width: 200px;
+}
+
+#listContainer {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+#footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 11px;
+}
+
+button {
+    all: unset;
+    font-size: 10px;
+    border: 0.2px solid black;
+    padding: 3px 6px 3px 6px;
+}
+
+li > button {
+    margin-left: 10px;
+    font-size: 8px;
+}
+
+#githubLogo {
+    width: 30px;
+    height: auto;
+    opacity: 30%;
+}
